@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import wrapper.Wrapper_methods;
 
-public class OD_Oderable_RN_100_MAF133 extends Wrapper_methods{
+public class OD_Oderable_ReaderNo_100_MAF133 extends Wrapper_methods{
 	@Test
 	public void OD_Oderable() throws IOException, InterruptedException{
 		
