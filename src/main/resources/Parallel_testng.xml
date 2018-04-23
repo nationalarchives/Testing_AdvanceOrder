@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Advance Order Farm" parallel="classes" thread-count="6" >
+  <test name="AdvanceOrderForm">
+    <classes>
+      <class name="com.parallelAOF.OD_Oderable_RN_100"/>
+      <class name="com.parallelAOF.OD_Oderable_RN_7940369"/>
+      <class name="com.parallelAOF.OD_Oderable_RN_8912657"/>
+      <class name="com.parallelAOF.OD_Oderable_RN_100_MAF133"/>
+      <class name="com.parallelAOF.OD_Oderable_RN_7940369_J90546"/>
+      <class name="com.parallelAOF.OD_Oderable_RN_8912657_DEFE2555"/>
+      
+       </classes>
+       
+       </test>
+</suite>

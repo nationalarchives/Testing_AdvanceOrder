@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Advance Order Farm" verbose="1">
+	<test name="AdvanceOrderForm">
+		<classes>
+		
+			<class name="com.AdvanceOrderForm.OD_MultipleRecords_SameReference" />
+			<class name="com.AdvanceOrderForm.OD_OderableBefore4PM" />
+			<class name="com.AdvanceOrderForm.OD_PieceLevel" />
+			<class name="com.AdvanceOrderForm.OD_TemReaderTicket" />
+
+		</classes>
+
+	</test>
+</suite>

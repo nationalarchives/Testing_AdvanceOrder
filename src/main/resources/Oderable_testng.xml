@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Advance Order Farm" verbose="1">
+	<test name="AdvanceOrderForm">
+		<classes>
+
+		<class name="com.AdvanceOrderForm.OD_Oderable" />
+			<class name="com.AdvanceOrderForm.OD_OddOrNumercialDescription" />
+			<class name="com.AdvanceOrderForm.OD_CurrentlyInUse" />
+			<class name="com.AdvanceOrderForm.OD_TooLargeToCopy" />
+		   <class name="com.AdvanceOrderForm.OD_PlaceOrderFromDeliveryOption" />
+			<class name="com.AdvanceOrderForm.OD_ReaderTicketLink" />
+			<class name="com.AdvanceOrderForm.OD_FloorPlanPDF" />
+			<class name="com.AdvanceOrderForm.OD_OrderNextDayAfter4PM" />
+			<class name="com.AdvanceOrderForm.OD_InvalidTableNumber_Letters" />
+			<class name="com.AdvanceOrderForm.OD_MultipleRecords_SameReference" />
+			<class name="com.AdvanceOrderForm.OD_OderableBefore4PM" />
+		<class name="com.AdvanceOrderForm.OD_TemReaderTicket" />
+			<class name="com.AdvanceOrderForm.OD_12Documents" />
+			 <class name="com.AdvanceOrderForm.OD_MaximumReachedPerTicket"/>
+			 <class name="com.AdvanceOrderForm.OD_PieceLevel"/>
+			 <class name="com.AdvanceOrderForm.OD_CarParkLink"/>
+
+		</classes>
+
+	</test>
+</suite>

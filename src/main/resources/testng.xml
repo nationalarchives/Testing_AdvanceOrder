@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Advance Order Farm" verbose="1">
+	<test name="AdvanceOrderForm_Oderable">
+		<classes>
+			<class name="com.Orderable.OD_Oderable" />
+			<class name="com.Orderable.OD_OddOrNumercialDescription" />
+			<class name="com.Orderable.OD_CurrentlyInUse" />
+			<class name="com.Orderable.OD_availableToOrderLivesSafeRoom" />
+			<class name="com.Orderable.OD_TooLargeToCopy" />
+			<class name="com.Orderable.OD_PlaceOrderFromDeliveryOption" />
+			<class name="com.Orderable.OD_ReaderTicketLink" />
+			<class name="com.Orderable.OD_FloorPlanPDF" />
+			<class name="com.Orderable.OD_InvalidTableNumber_Letters" />
+			<class name="com.Orderable.OD_OderableWithHotmailGmailOUtlook" />
+			<class name="com.Orderable.OD_MultipleRecords_SameReference" />
+		    <class name="com.Orderable.OD_OderableBefore4PM" />
+			<class name="com.Orderable.OD_12Documents" />
+			<class name="com.Orderable.OD_PieceLevel" />
+			<class name="com.Orderable.OD_TemReaderTicket" />
+			<class name="com.Orderable.OD_CarParkLink" />
+
+		</classes>
+
+	</test>
+
+
+	<test name="Advance Order form validation messages">
+		<classes>
+
+			<class name="com.Validation.OD_HeldInDeepStore" />
+			<class name="com.Validation.OD_Microfiche_film" />
+			<class name="com.Validation.OD_DigitalRecord" />
+			<class name="com.Validation.OD_ClosedRecord" />
+			<class name="com.Validation.OD_ClosedDigitalRecord" />
+			<class name="com.Validation.OD_UnKnownDepartment" />
+			<class name="com.Validation.OD_HeldByAnotherArchive" />
+			<class name="com.Validation.OD_LoanToAnotherOrganisation" />
+			<class name="com.Validation.OD_DigitizedByAdamMatthew" />
+			<class name="com.Validation.OD_UnavailableToOrderDestroyed" />
+			<class name="com.Validation.OD_DiscoveryVideoPlayer" />
+			<class name="com.Validation.OD_MouldTreatment" />
+			<class name="com.Validation.OD_CollectionCare" />
+			<class name="com.Validation.OD_UnavailableToOrderKeepersGallery" />
+			<class name="com.Validation.OD_Duplicateform" />
+			<class name="com.Validation.OD_NoReaderTicket" />
+			<class name="com.Validation.OD_NoNameTelephoneno" />
+			<class name="com.Validation.OD_BankHolidayDate" />
+			<class name="com.Validation.DateVlidation_Monday" />
+			<!-- <class name="com.Validation.OD_OrderNextDayAfter4PM" /> -->
+			<class name="com.Validation.OD_InputIncorrect" />
+			<class name="com.Validation.OD_InvalidDateMonth" />
+			<class name="com.Validation.OD_ExpiredReaderTicket" />
+			<class name="com.Validation.OD_InvalidEmailID" />
+			<class name="com.Validation.OD_MorethanSixWeeks" />
+			<class name="com.Validation.OD_EmptyRefferenceNumber" />
+			<class name="com.Validation.OD_TermsAndConditionWithNoClick" />
+			<class name="com.Validation.OD_MaximumReachedPerTicket" />
+			<class name="com.Validation.OD_Missing" />
+			<class name="com.Validation.OD_Pastdate" />
+			<class name="com.Validation.OD_EnterReferenceForSecond" />
+
+		</classes>
+
+	</test>
+</suite>
