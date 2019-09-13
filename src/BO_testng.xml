@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BulkOrder" verbose="1" >
+  <test name="bo_Orderable" >
+    <classes>
+<class name="bo_Orderable.BO_Orderable_Max40_TempTicket"/>
+<class name="bo_Orderable.BO_Orderable_Max40_ValidGmail"/>
+<class name="bo_Orderable.BO_Orderable_Min20_ValidOutlook"/>
+<class name="bo_Orderable.BO_Piece_Min20"/>
+<class name="bo_Orderable.Orderable_Max40"/>
+<class name="bo_Orderable.Orderable_Min20"/>
+
+</classes>
+ </test>
+ 
+ <test name="bo_Validation" >
+    <classes>
+    <class name="bo_Validation.BO_ClosedDigitalRecord"/>
+    <class name="bo_Validation.BO_ClosedRecord"/>
+    <class name="bo_Validation.BO_DateVlidation_Monday"/>
+    <class name="bo_Validation.BO_DigitalRecord"/>
+    <class name="bo_Validation.BO_DigitizedByAdamMatthew"/>
+    <class name="bo_Validation.BO_DiscoveryVideoPlayer"/>
+     <class name="bo_Validation.BO_DupilcateRefference"/>
+    <class name="bo_Validation.BO_EmptyRefferenceNumber"/>
+    <class name="bo_Validation.BO_EnterReferenceForSecond"/>
+    <class name="bo_Validation.BO_ExpiredReaderTicket"/>
+    <class name="bo_Validation.BO_HeldByAnotherArchive"/>
+    <class name="bo_Validation.BO_HeldInDeepStore"/>
+     <class name="bo_Validation.BO_InputIncorrect"/>
+    <class name="bo_Validation.BO_InvalidDateMonth"/>
+    <class name="bo_Validation.BO_InvalidEmailID"/>
+    <class name="bo_Validation.BO_LoanToAnotherOrganisation"/>
+    <class name="bo_Validation.BO_MaximumReachedPerTicket"/>
+    <class name="bo_Validation.BO_Microfiche_film"/>
+     <class name="bo_Validation.BO_Missing"/>
+    <class name="bo_Validation.BO_MorethanSixWeeks"/>
+    <class name="bo_Validation.BO_MouldTreatment"/>
+    <class name="bo_Validation.BO_NoMatchSeriesAndRefference"/>
+    <class name="bo_Validation.BO_NoNameTelephoneno"/>
+    <class name="bo_Validation.BO_NoReaderTicket"/>
+     <class name="bo_Validation.BO_NoSeriesNumber"/>
+    <class name="bo_Validation.BO_Pastdate"/>
+    <class name="bo_Validation.BO_Piece_Min20_NextDayDelivery"/>
+    <class name="bo_Validation.BO_TermsAndConditionWithNoClick"/>
+    <class name="bo_Validation.BO_UnavailableToOrderDestroyed"/>
+    <class name="bo_Validation.BO_UnKnownDepartment"/>
+    
+     </classes>
+ </test>
+  
+ </suite>
