@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AdvanceOrderForm" verbose="1" >
+  <test name="ad_Orderable" >
+    <classes>
+<class name="ad_Orderable.OD_12Documents"/>
+<class name="ad_Orderable.OD_availableToOrderLivesSafeRoom"/>
+<class name="ad_Orderable.OD_CarParkLink"/>
+<class name="ad_Orderable.OD_CurrentlyInUse"/>
+<class name="ad_Orderable.OD_FloorPlanPDF"/>
+<class name="ad_Orderable.OD_InvalidTableNumber_Letters"/>
+<class name="ad_Orderable.OD_MultipleRecords_SameReference"/>
+<class name="ad_Orderable.OD_NoSeatNumberWithEmail"/>
+<class name="ad_Orderable.OD_OddOrNumercialDescription"/>
+<class name="ad_Orderable.OD_Oderable"/>
+<class name="ad_Orderable.OD_OderableBefore4PM"/>
+<class name="ad_Orderable.OD_OderableWithHotmailGmailOUtlook"/>
+<class name="ad_Orderable.OD_PieceLevel"/>
+<class name="ad_Orderable.OD_PlaceOrderFromDeliveryOption"/>
+<class name="ad_Orderable.OD_ReaderTicketLink"/>
+<class name="ad_Orderable.OD_SeatNoAdditionalRequirmentsWithEmail"/>
+<class name="ad_Orderable.OD_SeatNoAdditionalRequirmentsWithNoEmail"/>
+<class name="ad_Orderable.OD_SeatNoWithEmail"/>
+<class name="ad_Orderable.OD_TemReaderTicket"/>
+<class name="ad_Orderable.OD_TooLargeToCopy"/>
+</classes>
+ </test>
+ 
+ <test name="ad_Validation" >
+    <classes>
+    <class name="ad_Validation.DateVlidation_Monday"/>
+    <class name="ad_Validation.OD_BankHolidayDate"/>
+    <class name="ad_Validation.OD_ClosedDigitalRecord"/>
+    <class name="ad_Validation.OD_ClosedRecord"/>
+    <class name="ad_Validation.OD_CollectionCare"/>
+    <class name="ad_Validation.OD_DigitalRecord"/>
+    <class name="ad_Validation.OD_DigitizedByAdamMatthew"/>
+    <class name="ad_Validation.OD_DiscoveryVideoPlayer"/>
+    <class name="ad_Validation.OD_Duplicateform"/>
+    <class name="ad_Validation.OD_EmptyRefferenceNumber"/>
+    <class name="ad_Validation.OD_EnterReferenceForSecond"/>
+    <class name="ad_Validation.OD_ExpiredReaderTicket"/>
+    <class name="ad_Validation.OD_HeldByAnotherArchive"/>
+    <class name="ad_Validation.OD_HeldInDeepStore"/>
+    <class name="ad_Validation.OD_InputIncorrect"/>
+    <class name="ad_Validation.OD_InvalidDateMonth"/>
+    <class name="ad_Validation.OD_InvalidEmailID"/>
+    <class name="ad_Validation.OD_LoanToAnotherOrganisation"/>
+    <class name="ad_Validation.OD_MaximumReachedPerTicket"/>
+    <class name="ad_Validation.OD_Microfiche_film"/>
+    <class name="ad_Validation.OD_Missing"/>
+    <class name="ad_Validation.OD_MorethanSixWeeks"/>
+    <class name="ad_Validation.OD_MouldTreatment"/>
+    <class name="ad_Validation.OD_NoNameTelephoneno"/>
+    <class name="ad_Validation.OD_NoReaderTicket"/>
+    <class name="ad_Validation.OD_OrderNextDayAfter4PM"/>
+    <class name="ad_Validation.OD_Pastdate"/>
+    <class name="ad_Validation.OD_TermsAndConditionWithNoClick"/>
+    <class name="ad_Validation.OD_UnavailableToOrderDestroyed"/>
+    <class name="ad_Validation.OD_UnavailableToOrderKeepersGallery"/>
+    <class name="ad_Validation.OD_UnKnownDepartment"/>
+    <class name="ad_Validation.ReaderTicketRegistration"/>
+    
+    
+    </classes>
+ </test>
+  
+ </suite>
