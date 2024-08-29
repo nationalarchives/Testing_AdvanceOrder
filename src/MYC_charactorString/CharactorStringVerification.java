@@ -50,7 +50,7 @@ public class CharactorStringVerification extends MYC_MongoDB.MongoDBConstructor 
 
 		// Assert.assertEquals("#$% &'()*+,-./0123456789:;=?@ABCD actual);
 		MongoClient mongoClient = new MongoClient(
-				new MongoClientURI("mongodb://dbadmin:b1df6bej@wb-t-data1.web.local:27017,wb-t-data2.web.local:27017"));
+				new MongoClientURI("mongodb://username:password@wb-t-data1.web.local:27017,wb-t-data2.web.local:27017"));
 		DB db = mongoClient.getDB("iadata");
 		System.out.println("connected to Database");
 		DBCollection coll = db.getCollection("Records_MYC");

@@ -13,7 +13,7 @@ import wrappers.Wrapper_methods;
 public class MongoDBConstructor extends Wrapper_methods{
 	public void MongoDBConstructor(){
 		
-		MongoClient mongoClient  = new MongoClient(new MongoClientURI("mongodb://dbadmin:b1df6bej@wb-t-data1.web.local:27017,wb-t-data2.web.local:27017"));
+		MongoClient mongoClient  = new MongoClient(new MongoClientURI("mongodb://username:password@wb-t-data1.web.local:27017,wb-t-data2.web.local:27017"));
 		
 		//MongoDatabase db = mongoClient.getDatabase("iadata");
 		DB db = mongoClient.getDB("iadata");
